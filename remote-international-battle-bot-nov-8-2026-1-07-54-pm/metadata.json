@@ -1,0 +1,8 @@
+{
+  "name": "Remote International Battle-Bot",
+  "description": "The exact interactive presentation of Remote International Battle-Bot (+riBB+) .",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

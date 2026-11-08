@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Beth Ellen';
+  src: url('/fonts/b6b4f68ba7446a1ed700debc2cc6c2f6.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Prachason Neue Expanded';
+  src: url('/fonts/ba761ea6b1cec844bbb545c57e0d128d.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Benguiat Condensed';
+  src: url('/fonts/9c71fcddcf0ab36ea9a5044c9b5fd3dc.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Benguiat Condensed';
+  src: url('/fonts/3b7f9167afbf2d1d06246163a2fdeb8f.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Benguiat Condensed';
+  src: url('/fonts/0c6124024adcf3427b11de2e69c9804f.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Benguiat Condensed';
+  src: url('/fonts/487b40aa132116945120b9a066c20ee5.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Benguiat Condensed';
+  src: url('/fonts/dda34afa2041d1a3e1572ce633bb3845.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ITC Franklin Gothic LT';
+  src: url('/fonts/342522fe34b3d2b032a798e2b1d62fbf.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/f8379cdb66878cb9f02f8bacbc3fdb36.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sauce';
+  src: url('/fonts/8e05b96e3ae2c15fc05fa84e542d3d87.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('/fonts/834f64ff415fb8f4f5d92d8fd40507e9.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Arimo';
+  src: url('/fonts/b07201e0e9fc452103c1c0345b0e7c1d.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #161a1c;
+  color: #dfdee0;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Custom scrollbars and focus outlines */
+:focus-visible {
+  outline: 2px solid rgba(223, 222, 224, 0.4);
+  outline-offset: 2px;
+}
